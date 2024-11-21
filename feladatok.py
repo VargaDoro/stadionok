@@ -34,3 +34,22 @@ def buffaloban(lista):
             csapatok+=lista[i].csapatok_szama
     return csapatok
 
+def elso():
+    szam:int=int(input("Kérlek adj meg egy számot: "))
+    while szam%2!=0:
+        print("Páros számot adj meg!")
+        szam:int=int(input("Kérlek adj meg egy számot: "))
+    return szam
+
+def ketto():
+    for i in range(1, 4, 1):
+        szam=paros_szam_megadasa(i)
+        print(szam)
+
+def paros_szam_megadasa(n):
+    szam:int=int(input(f"Adja meg az {n}. páros számot: "))
+  
+    while szam%2!=0:
+        print("Páros számot adj meg!")
+        szam:int=int(input(f"Adja meg az {n}. páros számot: "))
+    return szam

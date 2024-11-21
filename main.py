@@ -2,7 +2,7 @@ from Stadion import Stadion
 import filebeolvas
 import feladatok
 
-stadionok=filebeolvas.beolvas("stadionok.txt", [])
+'''stadionok=filebeolvas.beolvas("stadionok.txt", [])
 for i in range(0,len(stadionok),1):
     print(stadionok[i])
 
@@ -19,5 +19,11 @@ ota=feladatok.ketszazeve(stadionok)
 print(f"Ennyi stadion nem játszott 200 éve: {ota}")
 
 csapatok=feladatok.buffaloban(stadionok)
-print(f"Ennyi csapat játszott Buffaloban: {csapatok}")
+print(f"Ennyi csapat játszott Buffaloban: {csapatok}")'''
 
+print("Az első feladat")
+szam=feladatok.elso()
+print("A megadott szám: ",szam)
+
+print("A második feladat")
+feladatok.ketto()
