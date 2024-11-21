@@ -15,8 +15,8 @@ print(f"Az összes csapatszám: {ossz}******************************************
 print("Akiknek 1900.01.01. előtt volt mérkőzésük: ")
 feladatok.ezerkilencszaz_elott(stadionok)
 
-ota=feladatok.ketszazota(stadionok)
-print(f"Ennyi stadion nem játszott 200 óta: {ota}")
+ota=feladatok.ketszazeve(stadionok)
+print(f"Ennyi stadion nem játszott 200 éve: {ota}")
 
 csapatok=feladatok.buffaloban(stadionok)
 print(f"Ennyi csapat játszott Buffaloban: {csapatok}")
